@@ -1,0 +1,25 @@
+1°
+
+Variables: Las variables son espacios en memoria en donde se le pueden guardar datos para usar mas tarde. Para asignarle un valor se usa "=". Hay tres tipos de formas de declarar una variable:
+
+*var: Es la forma más usada de declarar una variable
+
+*let: Esta forma de declarar variables es nueva pero más efectiva, ya que me permite declara una variable dentro de un bloque {} sin afectar a las variables declaradas fuera de los {}. Funciona por dentro de su propio bloque.
+
+*const: Estas variables se llaman constantes y son variables que no se pueden modificar una vez hechas, osea, se mantienen de la misma forma
+
+Strings: Son bloques de texto y siempre se escriben entre comillas. Puede ser cualq texto mientras tenga ""
+
+Argumentos: Los argumentos son los valores que le pasamos y recibe consecuentemente una función.
+
+Return: Esta declaración sirve para devolver datos de una función creada previamente.
+
+If: Sirve para declarar una sentencia, true o false. Dependiendo de esto se ejecutara otra sentencia o no
+
+Valores booleanos: Estos valores significa que tienen dos opciones, 0 o 1, activar o desactivar y true o false. En javascript se utiliza los ultimos mencionados.
+
+
+
+
+
+
