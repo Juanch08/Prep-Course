@@ -146,7 +146,6 @@ function diaDeLaSemana(numeroDeDia) {
   //Realiza una función que dado el número del día de la semana, retorne: Es fin de semana
   //si el día corresponde a Sábado o Domingo y “Es dia Laboral” en caso contrario. 
   //Escribe tu código aquí   
- if (numeroDeDia >= 8) return "Error";
  
  numeroDeDia = [
 ["Error"," los dias disponibles son del 1 al 7"],
@@ -163,6 +162,9 @@ function diaDeLaSemana(numeroDeDia) {
 
 ]
 alert (numeroDeDia[//El día que el usuario elija])
+])
+
+}
 
 
 function empiezaConNueve(n) {
@@ -216,6 +218,7 @@ function mesesDelAño(array) {
       return "No se encontraron los meses pedidos"
     }
   }
+}
 
 
 function mayorACien(array) {
@@ -233,6 +236,8 @@ function mayorACien(array) {
       newArrayMayorA100.push(numberMayor)
       return newArrayMayorA100;
   }
+}
+}
 
 
 function breakStatement(numero) {
@@ -291,6 +296,7 @@ for (let i = 0;  i < 10;  i++){
 return numero;
 }
 
+}
 }
 
 // No modificar nada debajo de esta línea
