@@ -29,7 +29,7 @@ function agregarPropiedad (objeto, property) {
   // Tu código:
   objeto["property"] = null;
 
- return objeto;
+return objeto;
 }
 
 function invocarMetodo (objeto, metodo) {
@@ -43,8 +43,7 @@ function invocarMetodo (objeto, metodo) {
     metodo
   }
 };
-
-   objeto["metodo"];
+objeto["metodo"];
 }
 
 function multiplicarNumeroDesconocidoPorCinco (objetoMisterioso) {
@@ -74,12 +73,12 @@ function nuevoUsuario (nombre, email, password) {
   // Crea un nuevo objeto con las propiedades coincidiendo con los argumentos que se pasan a la función
   // Devuelve el objeto
   // Tu código:
- let newUser = {
+let newUser = {
 
   "nombre": nombre,
   "email": email,
   "password": password,
- 
+
 };
 
   return newUser;
@@ -89,9 +88,9 @@ function tieneEmail (usuario) {
   // Devuelve "true" si el usuario tiene un valor definido para la propiedad "email"
   // De lo contrario, devuelve "false"
   // Tu código:
- if (usuario["email"] !== undefined){
+if (usuario["email"] !== undefined){
   return true;
- 
+
 } else {
 
   return false;
@@ -103,10 +102,10 @@ function tienePropiedad (objeto, propiedad) {
   // "propiedad" es un string
   // De lo contrario, devuelve "false"
   // Tu código:
- if ("propiedad" in objeto){
+if ("propiedad" in objeto){
 
   return true;
- 
+
 } else {
 
   return false;
@@ -163,17 +162,17 @@ function pasarUsuarioAPremium (usuarios) {
   // Define cada propiedad "esPremium" de cada objeto como "true"
   // Devuelve el array de usuarios
   // Tu código:
- usuarios = [
+usuarios = [
   usuario = {"esPremium": null}
-  usuario = {"esPremium": null}
- ];
+  usuario2 = {"esPremium": null}
+]
 
- for (let i = 0;  i < usuarios.length;  i++){
+for (let i = 0;  i < usuarios.length;  i++){
 
   usuarios[i]["esPremium"] = true
 }
 return usuarios;
- 
+
 }
 
 function sumarLikesDeUsuario (usuario) {
